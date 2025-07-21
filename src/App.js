@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
 import './App.css';
 
-import DonutLargeIcon from '@mui/icons-material/DonutLarge';
-import ChatIcon from '@mui/icons-material/Chat';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
-import SearchIcon from '@mui/icons-material/Search';
+import {DonutLargeIcon} from '@mui/material';
+import {ChatIcon} from '@mui/material';
+import {MoreVertIcon} from '@mui/material';
+import {SearchIcon} from '@mui/material';
 
 import { ChatIntroducao } from "./components/ChatIntroducao";
 import { ChatListItem } from "./components/ChatListItem";

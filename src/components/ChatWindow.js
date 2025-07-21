@@ -1,13 +1,13 @@
-import SearchIcon from '@mui/icons-material/Search';
-import AttachFileIcon from '@mui/icons-material/AttachFile';
-import MoreVertIcon from '@mui/icons-material/MoreVert';
+import {SearchIcon} from '@mui/material/';
+import {AttachFileIcon} from '@mui/material';
+import {MoreVertIcon} from '@mui/material';
 import './ChatWindow.css';
 import EmojiPicker from 'emoji-picker-react';
 // import icons
-import InsertEmoticonIcon from '@mui/icons-material/InsertEmoticon';
-import CloseIcon from '@mui/icons-material/Close';
-import SendIcon from '@mui/icons-material/Send';
-import MicIcon from '@mui/icons-material/Mic';
+import {InsertEmoticonIcon} from '@mui/material';
+import {CloseIcon} from '@mui/material';
+import {SendIcon} from '@mui/material';
+import {MicIcon} from '@mui/material';
 import { useState, useEffect, useRef } from 'react';
 import { MsgItem } from './msgItem';
 import Api from '../Api';
