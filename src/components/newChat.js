@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import './newChat.css';
-import {ArrowBackIcon} from '@mui/material';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Api from '../Api';
 
 export const NewChat = ({ chatList, user, show, setShow }) => {
